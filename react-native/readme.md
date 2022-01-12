@@ -28,7 +28,7 @@ For Typescript:
 | 9 | Tinder swipe |   |
 | 10 | Youtube layout |   |
 | 11 | Push Notification |   |
-| 12 | faceId |   |
+| 12 | Map View and Geo Location |   |
 | 13 | gesture unlock |   |
-| 14 | unlock app with touchId |   |
+| 14 | unlock app with touchId/faceID |   |
 | 15 | drag and drop |   |
