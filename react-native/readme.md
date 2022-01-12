@@ -29,6 +29,6 @@ For Typescript:
 | 10 | Youtube layout |   |
 | 11 | Push Notification |   |
 | 12 | Map View and Geo Location |   |
-| 13 | gesture unlock |   |
-| 14 | unlock app with touchId/faceID |   |
-| 15 | drag and drop |   |
+| 13 | Gesture Unlock |   |
+| 14 | Unlock App with TouchId/FaceID |   |
+| 15 | Drag and Drop |   |
