@@ -12,6 +12,12 @@ For Typescript:
 
 ```npx react-native init NameOfTheProject --template react-native-template-typescript```
 
+Routing:
+```npm install @react-navigation/native @react-navigation/native-stack```
+
+peer dependency for routing:
+```npm install react-native-screens react-native-safe-area-context```
+
 
 ### TimeLine
 
