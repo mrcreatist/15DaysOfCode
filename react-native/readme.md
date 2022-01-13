@@ -6,7 +6,9 @@
 
 For Javascript:
 
-```npx react-native init NameOfTheProject```
+```
+npx react-native init NameOfTheProject
+```
 
 For Typescript:
 
@@ -17,6 +19,12 @@ Routing:
 
 peer dependency for routing:
 ```npm install react-native-screens react-native-safe-area-context```
+then install for ios
+```
+cd ios
+pod install
+```
+
 
 
 ### TimeLine
