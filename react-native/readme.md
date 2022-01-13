@@ -4,13 +4,13 @@
 
 ### Generate New Project
 
-For Javascript:
+With Javascript:
 
 ```
 npx react-native init NameOfTheProject
 ```
 
-For Typescript:
+With Typescript:
 
 ```
 npx react-native init NameOfTheProject --template react-native-template-typescript
