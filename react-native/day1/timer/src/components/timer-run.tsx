@@ -28,8 +28,6 @@ const timerUtil: any = {
       timerUtil.timeToString(sec) +
       ':' +
       timerUtil.timeToString(ms);
-
-    console.log(result);
     return result;
   },
 
@@ -64,8 +62,8 @@ export const TimerRun = () => {
 
   const _onStop = () => {
     clearInterval(gap);
-    setGap(null);
     setGapSwitch(false);
+    setGap(null);
     setTime(defaultTime);
   };
 
