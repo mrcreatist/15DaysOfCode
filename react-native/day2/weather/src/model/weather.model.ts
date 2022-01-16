@@ -1,4 +1,4 @@
-export interface weatherModel {
+export class WeatherModel {
   coord: WeatherCoordModel;
   weather: Array<WeatherDataModel>;
   base: string;
