@@ -1,13 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import {Button, Text, TextInput, View} from 'react-native';
 import {ROUTE} from '../constant';
+import {ENVIRONMENT} from '../environment';
 import {WeatherModel} from '../model';
 
 export const Home = (props: any) => {
   const [weather, setWeather]: any = useState(null);
   const [city, setCity] = useState('');
 
-  const API_KEY = '3da971b1454718615b2aa3b8ebe8c0c0';
+  const API_KEY = ENVIRONMENT.OPEN_WEATHER.API_KEY;
 
   const getWeatherFromAPI = () => {
     return fetch(
